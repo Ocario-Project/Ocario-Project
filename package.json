@@ -62,11 +62,11 @@
         ]
     },
     "config": {
-        "contractsPackages": "@Ocario/contracts-erc20 @Ocario/contracts-test-utils @Ocario/contracts-utils @Ocario/contracts-zero-ex @Ocario/contracts-treasury",
-        "nonContractPackages": "@Ocario/contract-wrappers @Ocario/contract-addresses @Ocario/contract-artifacts @Ocario/contract-wrappers-test",
+        "contractsPackages": "@ocario/contracts-erc20 @ocario/contracts-test-utils @ocario/contracts-utils @ocario/contracts-zero-ex @ocario/contracts-treasury",
+        "nonContractPackages": "@ocario/contract-wrappers @ocario/contract-addresses @ocario/contract-artifacts @ocario/contract-wrappers-test",
         "ignoreTestsForPackages": "",
         "mnemonic": "concert load couple harbor equip island argue ramp clarify fence smart topic",
-        "packagesWithDocPages": "@Ocario/contract-wrappers",
+        "packagesWithDocPages": "@ocario/contract-wrappers",
         "ignoreDependencyVersions": "@types/styled-components @types/node",
         "ignoreDependencyVersionsForPackage": "contract-wrappers"
     },
@@ -93,5 +93,7 @@
     "resolutions": {
         "**/bignumber.js": "^9.0.2"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@0x/contracts-zero-ex": "^0.38.6"
+    }
 }

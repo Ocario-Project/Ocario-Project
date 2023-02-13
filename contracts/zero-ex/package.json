@@ -1,5 +1,5 @@
 {
-    "name": "@Ocario/contracts-zero-ex",
+    "name": "@ocario/contracts-zero-ex",
     "version": "0.38.6",
     "engines": {
         "node": ">=6.12"
